@@ -1,0 +1,27 @@
+{
+  "name": "github-action-squoosh-images",
+  "version": "1.0.0",
+  "description": "A GitHub Action to compress images using Squoosh",
+  "main": "lib/main.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "prettier --check ."
+  },
+  "keywords": [
+    "actions",
+    "node",
+    "setup"
+  ],
+  "author": "Mathieu Dutour",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.13.0",
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@squoosh/lib": "^0.5.3"
+  }
+}

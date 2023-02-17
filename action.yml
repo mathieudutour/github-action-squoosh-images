@@ -1,0 +1,14 @@
+name: "Squoosh Images"
+description: "A GitHub Action to compress images using Squoosh"
+author: "Mathieu Dutour"
+inputs:
+  images:
+    description: "Comma separated list of images to compress"
+    required: true
+
+runs:
+  using: "node16"
+  main: "lib/main.js"
+branding:
+  icon: "scissors"
+  color: "green"
