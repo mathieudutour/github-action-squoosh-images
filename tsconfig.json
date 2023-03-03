@@ -5,7 +5,8 @@
     "outDir": "./lib" /* Redirect output structure to the directory. */,
     "rootDir": "./src",
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "skipLibCheck": true
   },
   "exclude": ["node_modules", "**/*.test.ts"]
 }
