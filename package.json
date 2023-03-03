@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "check": "prettier --check ."
+    "check": "prettier --check .",
+    "build": "tsc"
   },
   "keywords": [
     "actions",
